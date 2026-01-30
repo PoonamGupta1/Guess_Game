@@ -20,7 +20,8 @@ do {
     incorrectInput++;
   }
   i++;
-} while (user != number && i < 100);
+} while (user != number && i < 3);
 
 let score = 100 - guess;
 console.log("Score: " + score);
+
